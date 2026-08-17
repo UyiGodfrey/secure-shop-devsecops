@@ -1,0 +1,7 @@
+title = "SecureShop DevSecOps Gitleaks Configuration"
+
+[[rules]]
+id = "devsecops-test-secret"
+description = "Detects the DevSecOps lab test secret"
+regex = '''DEVSECOPS_SECRET=[^\s]+'''
+keywords = ["DEVSECOPS_SECRET"]
