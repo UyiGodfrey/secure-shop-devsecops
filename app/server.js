@@ -19,6 +19,7 @@ const server = http.createServer((req, res) => {
   res.end("SecureShop API");
 });
 
-server.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// nosemgrep: problem-based-packs.insecure-transport.js-node.using-http-server.using-http-server -- HTTP is limited to this loopback-only local lab server.
+server.listen(PORT, "127.0.0.1", () => {
+  console.log(`Server running on http://127.0.0.1:${PORT}`);
 });
