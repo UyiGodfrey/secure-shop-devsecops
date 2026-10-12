@@ -1,5 +1,7 @@
 # Secure Shop DevSecOps Lab
 
+> **Portfolio navigation:** [Browse my featured Cloud & DevOps projects](https://github.com/UyiGodfrey/nexus-devops-platform/blob/main/PORTFOLIO.md).
+
 A small Node.js service used to demonstrate security checks in a GitHub Actions delivery workflow.
 
 ## What is implemented
